@@ -1,0 +1,98 @@
+.naslov_container {
+    width: 100%;
+    position: relative;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 125px; 
+  }
+  
+  .naslov_pozadina {
+    position: absolute;
+    top: 0;
+    font-size: 155px;
+    font-weight: bold;
+    color: black;
+    opacity: 0.05;
+    line-height: 1;
+  }
+  
+  .naslov_prednji {
+    font-size: 65px;
+    font-weight: bold;
+    color: black;
+    z-index: 1;
+    margin: 0;
+    line-height: 1;
+  }
+
+
+  .linija {
+    width: 250px;
+    height: 4px;
+    border-radius: 2px;
+    margin-top: 10px;
+    z-index: 1;
+    background: linear-gradient(45deg, #8B0000, #DAA520, #8B0000, #DAA520);
+    background-size: 300% 300%;
+    animation: gradientGlow 7s ease infinite;
+  }
+
+
+  @keyframes gradientGlow {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .naslov_container {
+      width: 95%;
+      height: 100px;
+      padding-top: 92px; 
+    }
+    
+    .naslov_pozadina {
+      top: 0;
+      font-size: 115px;
+      opacity: 0.05;
+    }
+    
+    .naslov_prednji {
+      font-size: 45px;
+    }
+  
+  
+    .linija {
+      width: 200px;
+    }  
+  
+}
+
+@media screen and (max-width: 450px) {
+  .naslov_container {
+    width: 95%;
+    padding-top: 67px; 
+  }
+  
+  .naslov_pozadina {
+    font-size: 85px;
+  }
+  
+  .naslov_prednji {
+    font-size: 35px;
+  }
+
+
+  .linija {
+    width: 150px;
+  }  
+
+}
