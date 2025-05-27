@@ -15,9 +15,6 @@ const NotFound = () => {
             <h1>„Оп, путања ка страници промашена!“</h1>
             <img src={error} alt="404" className="error" />
             <GlobalButton text="Вратите се на почетну" handleClick={handleNotFound} className='global_button' />
-            <h3 className='subheading'>Изгледа да си залутао к’о млади у коло – кад крену лијевом, а сви десном!
-                Страница коју тражиш отишла је на пробу у КУД "Чајавец" и још се није вратила.
-            </h3>
 
         </div>
     )
