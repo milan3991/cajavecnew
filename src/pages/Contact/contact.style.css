@@ -247,6 +247,7 @@ textarea {
     .contact_box {
         margin: 5px;
         width: 95%;
+        margin-top: 50px;
     }
 
 }

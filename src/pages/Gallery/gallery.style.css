@@ -54,7 +54,13 @@
 }
 
 @media screen and (max-width: 1350px) {
- #root {
-    align-items: inherit;
- }
+.gallery_detail {
+    width: 97%;
+}
+.gallery_part {
+    width: 97%;
+}
+.gallery_page {
+    margin-top: 30px;
+}
 }
