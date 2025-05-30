@@ -53,7 +53,7 @@
     font-size: 180px;
   }
   .with-blur-backdrop {
-    width: 95%;
+    padding: 0;
   }
 
 }

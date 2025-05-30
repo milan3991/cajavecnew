@@ -81,4 +81,7 @@
   .footer_center {
     display: none;
   }
+  .footer_main {
+    margin-top: 150px;
+  }
 }

@@ -12,7 +12,6 @@ import ParallaxText from "../../components/ParallaxText/ParallaxText";
 
 
 
-
 const Gallery = () => {
     const navigate = useNavigate();
 

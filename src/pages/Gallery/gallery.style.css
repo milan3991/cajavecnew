@@ -52,3 +52,9 @@
     color: white;
     cursor: pointer;
 }
+
+@media screen and (max-width: 1350px) {
+ #root {
+    align-items: inherit;
+ }
+}
