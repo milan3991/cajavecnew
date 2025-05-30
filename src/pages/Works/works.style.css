@@ -37,6 +37,23 @@
     cursor: pointer;
 }
 
+@media screen and (max-width: 600px) {
+
+    .works_wrapper {
+        width: 95%;
+    }
+
+    .works_page {
+        gap: 40px;
+        margin:  40px 0px;  
+    }
+    
+    
+    .work_part img {
+        max-width: 350px;
+    }
+    
+  }
 
 
 @media screen and (max-width: 600px) {

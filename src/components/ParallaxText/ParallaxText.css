@@ -24,3 +24,47 @@
   margin: 0;
   line-height: 1;
 }
+
+@media screen and (max-width: 1350px) {
+  .parallax-text {
+    font-size: 150px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .parallax-text {
+    font-size: 130px;
+  }
+  .parallax-container {
+    height: 15vh;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .parallax-text {
+    font-size: 120px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .parallax-text {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .parallax-text {
+    font-size: 80px;
+  }
+    .parallax-container {
+    height: 10vh;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .parallax-text {
+    font-size: 65px;
+  }
+}

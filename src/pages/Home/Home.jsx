@@ -17,7 +17,9 @@ const Home = () => {
             <div className='home_wrapper'>
                 <Slideshow />
                 <div className='homesection'>
-                    <img src={profile} alt="My profile image" className="profile_image" />
+                    <div className='profile_image'>
+                    <img src={profile} alt="My profile image" />
+                    </div>
                     <div className='homepagesection_right'>
                         <h3>Бирај фолклор, бирај Чајавец</h3>
                         <h1>КУД "Чајавец" врши упис нових чланова</h1>
