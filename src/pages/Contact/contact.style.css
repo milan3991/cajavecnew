@@ -266,35 +266,10 @@ textarea {
         width: 100%;
         max-width: 550px;
     }
-
-    .naslov_container {
-        width: 95%;
-        padding-top: 60px;
-    }
-
-    .naslov_pozadina {
-        font-size: 75px;
-    }
-
-    .naslov_prednji {
-        font-size: 35px;
-    }
-
 }
 
 @media screen and (max-width: 400px) {
 
-    .naslov_container {
-        padding-top: 52px;
-    }
-
-    .naslov_pozadina {
-        font-size: 65px;
-    }
-
-    .naslov_prednji {
-        font-size: 25px;
-    }
     textarea::placeholder {
         font-size: 20px;
     }

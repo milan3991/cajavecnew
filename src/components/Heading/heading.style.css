@@ -52,42 +52,74 @@
     }
   }
 
-  @media screen and (max-width: 750px) {
+    @media screen and (max-width: 1250px) {
     .naslov_container {
       width: 95%;
       height: 100px;
-      padding-top: 92px; 
+      padding-top: 80px; 
     }
     
     .naslov_pozadina {
       top: 0;
-      font-size: 115px;
+      font-size: 100px;
       opacity: 0.05;
     }
     
     .naslov_prednji {
-      font-size: 45px;
+      font-size: 55px;
     }
   
   
     .linija {
-      width: 200px;
+      width: 250px;
     }  
   
+}
+
+  @media screen and (max-width: 800px) {
+    .naslov_container {
+      padding-top: 60px; 
+    }
+    
+    .naslov_pozadina {
+      font-size: 75px;
+    }
+    
+    .naslov_prednji {
+      font-size: 30px;
+    }  
+}
+
+  @media screen and (max-width: 600px) {
+    .naslov_container {
+      padding-top: 43px; 
+    }
+    
+    .naslov_pozadina {
+      font-size: 55px;
+    }
+    
+    .naslov_prednji {
+      font-size: 30px;
+    }  
+
+     .linija {
+    width: 150px;
+  }  
 }
 
 @media screen and (max-width: 450px) {
   .naslov_container {
     width: 95%;
-    padding-top: 67px; 
+    padding-top: 35px; 
   }
   
   .naslov_pozadina {
-    font-size: 85px;
+    font-size: 45px;
   }
   
   .naslov_prednji {
-    font-size: 35px;
+    font-size: 22px;
   }
 
 

@@ -2,6 +2,7 @@
     width: 95%;
     max-width: 900px;
     margin: 0px auto;
+    margin-top: 20px;
 }
 
 .gallery_main {
@@ -53,7 +54,7 @@
     cursor: pointer;
 }
 
-@media screen and (max-width: 1350px) {
+@media screen and (max-width: 600px) {
 .gallery_detail {
     width: 97%;
 }
