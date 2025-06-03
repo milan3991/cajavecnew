@@ -18,13 +18,13 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/istorijat" element={<About />} />
+        <Route path="/kontakt" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
-        <Route path="/works" element={<Works />} />
-        <Route path="/gallery" element={<Gallery />} />
+        <Route path="/sekcije" element={<Works />} />
+        <Route path="/galerija" element={<Gallery />} />
         <Route path="/test" element={<Test />} />
-        <Route path="/section/:id" element={<SectionById />} />
+        <Route path="/sekcije/:id" element={<SectionById />} />
         <Route path="/galerija/:id" element={<GalleryDetail />} />
       </Routes>
       <Footer />

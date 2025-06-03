@@ -53,10 +53,10 @@ const Navigation = () => {
 
                 <nav ref={navRef} className={`navigation_list ${menuOpen ? 'open' : ''}`}>
                     <Link to="/" onClick={() => setMenuOpen(false)}>Почетна</Link>
-                    <Link to="/about" onClick={() => setMenuOpen(false)}>Историјат</Link>
-                    <Link to="/works" onClick={() => setMenuOpen(false)}>Секције</Link>
-                    <Link to="/gallery" onClick={() => setMenuOpen(false)}>Галерија</Link>
-                    <Link to="/contact" onClick={() => setMenuOpen(false)}>Контакт</Link>
+                    <Link to="/istorijat" onClick={() => setMenuOpen(false)}>Историјат</Link>
+                    <Link to="/sekcije" onClick={() => setMenuOpen(false)}>Секције</Link>
+                    <Link to="/galerija" onClick={() => setMenuOpen(false)}>Галерија</Link>
+                    <Link to="/kontakt" onClick={() => setMenuOpen(false)}>Контакт</Link>
                 </nav>
             </div>
         </div>

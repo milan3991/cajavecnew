@@ -10,7 +10,7 @@ const Works = () => {
     const navigate = useNavigate();
 
     const handleClick = (id) => {
-        navigate(`/section/${id}`);
+        navigate(`/sekcije/${id}`);
     };
 
     return (
