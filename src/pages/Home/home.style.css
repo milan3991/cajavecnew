@@ -44,6 +44,21 @@
     margin: 0;
 }
 
+.home_button {
+    color: white;
+    background-color: #8B0000;
+    border-radius: 15px;
+    padding: 15px 20px;
+    font-weight: bold;
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.home_button:hover {
+    cursor: pointer;
+}
+
 @media screen and (max-width: 900px) {
     .home_wrapper {
         width: 90%;

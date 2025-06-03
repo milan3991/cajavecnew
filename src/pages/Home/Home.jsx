@@ -26,7 +26,7 @@ const Home = () => {
                         <p>
                             За више информација контактирајте нас путем телефона 066/938-114 или путем е-поште кликом на дугме.
                         </p>
-                        <GlobalButton text="Контактирајте нас" handleClick={handleContact} className='global_button' />
+                        <GlobalButton text="Контактирајте нас" handleClick={handleContact} className='home_button' />
                     </div>
                 </div>
             </div>
