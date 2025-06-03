@@ -57,6 +57,7 @@
 @media screen and (max-width: 600px) {
 .gallery_detail {
     width: 97%;
+    padding-top: 20px;
 }
 .gallery_part {
     width: 97%;

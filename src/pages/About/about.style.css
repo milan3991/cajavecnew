@@ -16,7 +16,7 @@
 .with-blur-backdrop {
 
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(8px);
   min-height: 70vh;
   display: flex;
   flex-direction: column;
@@ -36,6 +36,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  
 }
 
 
