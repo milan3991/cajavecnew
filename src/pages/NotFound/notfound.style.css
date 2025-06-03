@@ -21,3 +21,47 @@
     max-width: 600px;
     text-align: center;
 }
+
+
+@media screen and (max-width: 900px) {
+    .notfound_wrapper {
+        width: 95%;
+        min-height: 70vh;
+    }
+
+    .notfound_wrapper h1 {
+        font-size: 30px;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .notfound_wrapper h1 {
+        font-size: 22px;
+    }
+
+    .subheading {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .notfound_wrapper h1 {
+        font-size: 20px;
+    }
+
+    .subheading {
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+      .notfound_wrapper h1 {
+        font-size: 18px;
+    }
+
+    .subheading {
+        font-size: 14px;
+    }
+}
