@@ -12,9 +12,9 @@ import Award from '../../components/Awards/AwardPart';
 let awards = [
     {
         id: 1,
-        image: buyukcekmece,
-        header: `19. Интернационални фестивал 'Büyükçekmece' `,
-        description: 'Награда публике'
+        image: vitosha,
+        header: `Међународни фестивал фолклора 'Vitosha 2017'`,
+        description: '2. мјесто'
     },
     {
         id: 2,
@@ -25,9 +25,10 @@ let awards = [
     },
     {
         id: 3,
-        image: vitosha,
-        header: `Међународни фестивал фолклора 'Vitosha 2017'` ,
-        description: '2. мјесто'
+        image: buyukcekmece,
+        header: `19. Интернационални фестивал 'Büyükçekmece' `,
+        description: 'Награда публике'
+
 
     },
 ]
