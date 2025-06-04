@@ -50,9 +50,9 @@ const Footer = () => {
           <h3>Корисни линкови</h3>
           <ul className="footerlist">
             <li><a onClick={() => navigate('/')}>Почетна</a></li>
-            <li><a onClick={() => navigate('/works')}>Секције</a></li>
-            <li><a onClick={() => navigate('/gallery')}>Галерија</a></li>
-            <li><a onClick={() => navigate('/contact')}>Контакт</a></li>
+            <li><a onClick={() => navigate('/sekcije')}>Секције</a></li>
+            <li><a onClick={() => navigate('/galerija')}>Галерија</a></li>
+            <li><a onClick={() => navigate('/kontakt')}>Контакт</a></li>
           </ul>
         </div>
 

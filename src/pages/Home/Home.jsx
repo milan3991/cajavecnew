@@ -9,7 +9,7 @@ import '../Home/home.style.css';
 const Home = () => {
     const navigate = useNavigate();
     const handleContact = () => {
-        navigate('/contact');
+        navigate('/kontakt');
     };
 
 
