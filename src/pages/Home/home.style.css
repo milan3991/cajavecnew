@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: baseline;
     width: 100%;
-    max-width: 500px;
+    max-width: 420px;
     gap: 20px;
 }
 
@@ -59,6 +59,8 @@
     cursor: pointer;
 }
 
+
+
 @media screen and (max-width: 900px) {
     .home_wrapper {
         width: 90%;
@@ -73,14 +75,14 @@
         font-size: 16px;
     }
 
-    .homepagesection_right h1 {
+    .home_heading{
         font-size: 20px;
     }
 
 }
 
 @media screen and (max-width: 600px) {
-    .home_wrapper h1 {
+    .home_heading {
         font-size: 24px;
     }
 
