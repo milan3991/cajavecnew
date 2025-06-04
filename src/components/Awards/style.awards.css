@@ -27,7 +27,7 @@
 }
 
 .heading_awards {
-    font-size: 40px;
+    font-size: 47px;
     display: flex;
     background-image: url('../../assets/nagrade/laurels.png');
     background-size: cover;
@@ -69,9 +69,4 @@
     .award_part {
         max-width: 400px;
     }
-
-    .heading_awards {
-        width: 95%;
-    }
-
 }
