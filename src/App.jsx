@@ -10,11 +10,13 @@ import Gallery from "./pages/Gallery/Gallery"
 import Footer from "./components/Footer/Footer"
 import SectionById from "./pages/Section/SectionById"
 import GalleryDetail from "./pages/Gallery/components/GalleryDetails"
+import ScrollToTop from "./components/ScrollToTop"
 
 function App() {
 
   return (
     <Router>
+      <ScrollToTop/>
       <Navigation />
       <Routes>
         <Route path="/" element={<Home />} />
