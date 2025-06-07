@@ -7,6 +7,7 @@ import buyukcekmece from '../../assets/nagrade/buyukcekmece.jpg';
 import carpati from '../../assets/nagrade/carpati.jpg';
 import vitosha from '../../assets/nagrade/vitosha.jpg';
 import Award from '../../components/Awards/AwardPart';
+import CounterSection from '../../components/Counter/Counter';
 
 
 let awards = [
@@ -71,6 +72,8 @@ const Home = () => {
                         ))}
                     </div>
                 </div>
+                                <CounterSection/>
+
             </div>
         </div>
     );

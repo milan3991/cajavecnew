@@ -1,0 +1,36 @@
+.counter-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #eee;
+  padding: 60px 20px;
+  margin-top: 50px;
+}
+
+.counter-box {
+  margin: 20px;
+  text-align: center;
+  width: 270px;
+}
+
+.counter-number {
+  font-size: 48px;
+  font-weight: bold;
+  color: #555;
+}
+
+.counter-label {
+  font-size: 18px;
+  color: #777;
+}
+
+@media screen and (max-width: 900px) {
+    .counter-section {
+        padding: 0;
+    }
+    .counter-number {
+  font-size: 38px;
+}
+
+}
