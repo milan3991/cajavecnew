@@ -32,37 +32,46 @@
 
 .gallery_card_image {
     width: 100%;
-    max-width: 400px;
+    max-width: 650px;
     cursor: pointer;
     border-radius: 20px;
 }
 
 .gallery_header {
-    border: 2px solid #8B0000 ;
+    /* border: 2px solid #8B0000 ; */
     background-color: white;
-    color: #8B0000 ;
+    color: #8B0000;
     border-radius: 10px;
     width: 100%;
-    max-width: 400px;
+    font-size: 35px;
+    max-width: 650px;
     text-align: center;
 }
 
-.gallery_header:hover {
+/* .gallery_header:hover {
     border: 2px solid #DAA520;
     background-color: #DAA520;
     color: white;
     cursor: pointer;
-}
+}  */
+
 
 @media screen and (max-width: 600px) {
-.gallery_detail {
-    width: 97%;
-    padding-top: 20px;
-}
-.gallery_part {
-    width: 97%;
-}
-.gallery_page {
-    margin-top: 30px;
-}
+    .gallery_detail {
+        width: 97%;
+        padding-top: 20px;
+    }
+
+    .gallery_part {
+        width: 97%;
+    }
+
+    .gallery_page {
+        margin-top: 30px;
+    }
+
+    .gallery_header {
+        font-size: 25px;
+
+    }
 }
