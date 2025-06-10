@@ -7,9 +7,9 @@ const godinaPostojanja = currentYear - foundingYear;
 
 const countersData = [
   { label: "ГОДИНА ПОСТОЈАЊА", target: godinaPostojanja },
-  { label: "АКТИВНИХ ЧЛАНОВА", target: 400, suffix: "+" },
-  { label: "ПРОЈЕКАТА", target: 18 },
-  { label: "АНСАМБАЛА", target: 9 },
+  { label: "АКТИВНИХ ЧЛАНОВА", target: 500, suffix: "+" },
+  { label: "ПРОЈЕКАТА", target: 25 },
+  { label: "АНСАМБАЛА", target: 6 },
 ];
 
 const Counter = ({ target, label, suffix }) => {
