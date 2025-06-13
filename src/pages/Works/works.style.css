@@ -29,15 +29,20 @@
     /* color: white; */
     /* background-color: #fde6ac; */
     padding: 10px;
-    background-image: url('../../assets/zmijanjski-vez.svg');
+    background-image: url('../../assets/zmijanjski-vez-sections.png');
+    border-radius: 20px;
 }
 
 .work_part h2 {
     background-color: white;
     font-size: 30px;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
 }
 
 .work_part img {
+    border-radius: 20px;
     max-width: 370px;
 }
 
