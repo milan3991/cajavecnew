@@ -1,6 +1,7 @@
 import './about.style.css'
 import Heading from '../../components/Heading/Heading';
 import ParallaxText from '../../components/ParallaxText/ParallaxText';
+import TeamSection from './components/TeamSection';
 
 const About = () => {
 
@@ -61,7 +62,7 @@ const About = () => {
                         <br />
                         <br />
                         <br />
-                        Предсједник Друштва- др Милован Баљјић
+                        {/* Предсједник Друштва- др Милован Баљјић
                         <br />
                         <br />
                         Умјетнички руководилац- мр Љубиша Удовичић
@@ -81,7 +82,8 @@ const About = () => {
                         Костимографи: Мирјана Марјанац и Мирјана Грил
                         <br />
                         <br />
-                        Директор ансамбла- дипл.инг. Драшко Адамовић
+                        Директор ансамбла- дипл.инг. Драшко Адамовић */}
+                        <TeamSection/>
                     </p>
                 </div>
             </div>
