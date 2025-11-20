@@ -115,7 +115,7 @@ const Contact = () => {
                         />
                         <textarea placeholder='Ваша порука...' className='contact_input_field'></textarea>
                         <div>
-                            <GlobalButton text="ПОШАЉИ" handleClick={handleBack} className='global_button' />
+                            <button type="submit" className='global_button'>ПОШАЉИ</button>
                             <input type="hidden" name="_captcha" value="false" />
                         </div>
                     </form>
